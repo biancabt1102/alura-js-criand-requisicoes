@@ -17,18 +17,3 @@
 ## Screenshots
 ![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
 ![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
-
-## Para inicializar
-Você tem que escrever *npx json-server --watch db.json* no terminal
-
-## O que aprendi?
-
-### fetch()
-Depois de inserir a url na função fetch vc pode colocar outro tipo de dado que é o *method*, esse método pode ser definido como `POST`, `DELETE` e `UPDATE`. Não precisa declarar o `GET` pois está implicito.
-
-O *headers* nele vc pode colocar o tipo de conteudo `Content-type` que vai ser `application/json`.  
-
-O *body* vc coloca o `JSON.stringify` que vai converter de json => string.
-
-### Math.floor()
-Transforma o resultado da função anterior (Math.random) em um número inteiro.
